@@ -1,0 +1,1 @@
+Copy "caffe.pb.h" and "caffe_pretty_print.pb.h" to "include/caffe/proto" for other programs to use.

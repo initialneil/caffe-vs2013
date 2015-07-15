@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_PropertySheetDisplayName>Caffe-vs2013-Debug</_PropertySheetDisplayName>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(CUDA_PATH_V6_5)\include;$(SolutionDir);$(BOOST_1_56_0);$(OPENCV_3_0_0)\include;$(SolutionDir)3rdparty\include;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;USE_CUDNN;%(PreprocessorDefinitions)</PreprocessorDefinitions> 
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(CUDA_PATH_V6_5)\lib\$(PlatformName);$(BOOST_1_56_0)\lib64-msvc-12.0;$(OPENCV_3_0_0)\$(PlatformTarget)\vc12\lib;$(SolutionDir)3rdparty\lib\$(PlatformName)\$(Configuration);$(SolutionDir)build\$(Platform)\$(Configuration);</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_ts300.lib;opencv_world300.lib;cudart.lib;cuda.lib;nppi.lib;cufft.lib;cublas.lib;curand.lib;cudnn.lib;gflags.lib;gflags_nothreads.lib;libglog.lib;libprotobuf.lib;Shlwapi.lib;libopenblas.dll.a;leveldb.lib;libhdf5_D.lib;libhdf5_hl_D.lib;lmdb.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CudaCompile>
+      <CodeGeneration>compute_50,sm_50</CodeGeneration>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

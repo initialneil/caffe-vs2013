@@ -1,0 +1,5 @@
+# Used by Neil Z. SHAO
+# in Octave
+
+mex -I"/media/neil/Working Space/Playground/Codes/Caffe/include" -I"/usr/local/cuda-6.5/targets/x86_64-linux/include" matcaffe.cpp
+

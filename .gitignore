@@ -2,6 +2,14 @@
 Thumbs.db
 ehthumbs.db
 
+# Visual Studio
+Debug
+Release
+build
+3rdparty
+*.sdf
+*.opensdf
+
 # Folder config file
 Desktop.ini
 
