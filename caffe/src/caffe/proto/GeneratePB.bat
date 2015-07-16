@@ -1,5 +1,4 @@
-cd ../../../
-set PROTOC=../3rdparty/tools/protoc.exe
+set PROTOC=../../3rdparty/tools/protoc.exe
 
 if exist "src/caffe/proto/caffe.pb.h" (
     echo caffe.pb.h remains the same as before
