@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "caffe", "caffe\caffe.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test-MNIST", "test-MNIST\test-MNIST.vcxproj", "{73E67F0A-0507-438A-9BA7-75836EA90290}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "train-MNIST", "train-MNIST\train-MNIST.vcxproj", "{F52D9568-89B4-4A53-AC13-8F4A84304D70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -41,6 +43,18 @@ Global
 		{73E67F0A-0507-438A-9BA7-75836EA90290}.Release|Win32.Build.0 = Release|Win32
 		{73E67F0A-0507-438A-9BA7-75836EA90290}.Release|x64.ActiveCfg = Release|x64
 		{73E67F0A-0507-438A-9BA7-75836EA90290}.Release|x64.Build.0 = Release|x64
+		{F52D9568-89B4-4A53-AC13-8F4A84304D70}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{F52D9568-89B4-4A53-AC13-8F4A84304D70}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{F52D9568-89B4-4A53-AC13-8F4A84304D70}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F52D9568-89B4-4A53-AC13-8F4A84304D70}.Debug|Win32.Build.0 = Debug|Win32
+		{F52D9568-89B4-4A53-AC13-8F4A84304D70}.Debug|x64.ActiveCfg = Debug|x64
+		{F52D9568-89B4-4A53-AC13-8F4A84304D70}.Debug|x64.Build.0 = Debug|x64
+		{F52D9568-89B4-4A53-AC13-8F4A84304D70}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{F52D9568-89B4-4A53-AC13-8F4A84304D70}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{F52D9568-89B4-4A53-AC13-8F4A84304D70}.Release|Win32.ActiveCfg = Release|Win32
+		{F52D9568-89B4-4A53-AC13-8F4A84304D70}.Release|Win32.Build.0 = Release|Win32
+		{F52D9568-89B4-4A53-AC13-8F4A84304D70}.Release|x64.ActiveCfg = Release|x64
+		{F52D9568-89B4-4A53-AC13-8F4A84304D70}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
