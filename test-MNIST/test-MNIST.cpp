@@ -4,6 +4,7 @@
 *
 * Load trained Caffe model and run single image test with OpenCV
 */
+//Ìí¼Ó×¢ÊÍÓÃÓÚ²âÊÔ
 
 #include "caffe/caffe.hpp"
 #include "caffe/util/io.hpp"
