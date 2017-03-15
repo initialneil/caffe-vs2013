@@ -11,7 +11,7 @@
 #include "opencv2/core/core.hpp"
 #include "opencv2/highgui/highgui.hpp"
 #include "boost/smart_ptr/shared_ptr.hpp"
-
+//就是真么的吗
 // Caffe's required library
 #pragma comment(lib, "caffe.lib")
 
