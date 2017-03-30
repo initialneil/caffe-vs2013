@@ -4,7 +4,7 @@
 *
 * Start caffe training from Visual Studio
 */
-
+//×¢ÊÍ
 #include "caffe/caffe.hpp"
 #include "caffe/util/io.hpp"
 #include "caffe/blob.hpp"
