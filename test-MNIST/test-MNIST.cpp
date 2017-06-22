@@ -26,6 +26,7 @@ const string CAFFE_ROOT = "../caffe";
 
 int main(int argc, char** argv)
 {
+	// test superzdd
     // get a testing image and display
     Mat img = imread(CAFFE_ROOT + "/examples/images/mnist_5.png");
     cvtColor(img, img, CV_BGR2GRAY);
