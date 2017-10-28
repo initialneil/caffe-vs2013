@@ -5,6 +5,8 @@
 * Load trained Caffe model and run single image test with OpenCV
 */
 
+//添加注释，用于github测试  胡2017年10月28日20:29:45
+
 #include "caffe/caffe.hpp"
 #include "caffe/util/io.hpp"
 #include "caffe/blob.hpp"
