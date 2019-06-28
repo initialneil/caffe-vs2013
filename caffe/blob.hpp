@@ -5,7 +5,7 @@
 #include "caffe/proto/caffe.pb.h"
 #include "caffe/syncedmem.hpp"
 #include "caffe/util/math_functions.hpp"
-
+#于英杰添加测试github
 namespace caffe {
 
 /**
