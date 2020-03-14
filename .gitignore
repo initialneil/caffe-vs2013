@@ -1,6 +1,7 @@
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
+.vs/caffe-vs2013/v15/Browse.VC.opendb
 
 # Visual Studio
 Debug
